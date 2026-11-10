@@ -1,0 +1,45 @@
+/* eslint-disable */
+/**
+ * this file is generated automatically.
+ * do not edit please.
+ * see `@main-frame/style`
+ */
+
+.ant-result {
+  padding: 0;
+}
+
+/*tabs-content 高度设置为100%*/
+.ant-tabs-content-h-full .ant-tabs-content {
+  height: 100%;
+}
+
+/*去除a-tabs下的边距*/
+.ant-tabs-disable-tab-space .ant-tabs-nav {
+  margin-bottom: 0;
+}
+
+/*弹出层样式修改*/
+.ant-modal .ant-modal-title {
+  padding: 20px 24px;
+}
+
+.ant-modal .ant-modal-footer {
+  padding: 20px 24px;
+}
+
+.ant-modal .ant-modal-header {
+  margin-bottom: 0;
+}
+
+.ant-modal .ant-modal-content {
+  padding: 0;
+}
+
+.ant-modal .ant-modal-body {
+  padding: 0 24px;
+}
+
+.ant-modal-confirm .ant-modal-body {
+  padding: 20px 24px;
+}

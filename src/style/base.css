@@ -1,0 +1,154 @@
+/* eslint-disable */
+/**
+ * this file is generated automatically.
+ * do not edit please.
+ * see `@main-frame/style`
+ */
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html,
+#app {
+  height: 100%;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+/*滚动条*/
+::-webkit-scrollbar-track-piece {
+  background: 0 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b6c6ce;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #98a9b1;
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 2px;
+}
+/*右下角小白快透明*/
+::-webkit-scrollbar-corner,::-webkit-scrollbar-track{
+    background: transparent
+}
+
+.width0-scroll::-webkit-scrollbar {
+  width: 0;
+  overflow-y: auto;
+}
+
+/*文本溢出*/
+.g-text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.g-ellipsis2 {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: initial;
+}
+.g-ellipsis3 {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: initial;
+}
+.g-ellipsis4 {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: initial;
+}
+
+/*过渡*/
+.g-transition,
+.g-background-hover {
+  transition: all 0.3s;
+}
+
+/*颜色*/
+.g-background-hover {
+  border-radius: 6px;
+}
+
+.g-background-hover:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.g-normal-color {
+  color: #3d4e68;
+}
+
+.g-color-main {
+  color: #0b81fe;
+}
+
+.g-color-hover-main:hover {
+  color: #0b81fe;
+}
+
+/*边框*/
+.g-border-top {
+  border-top: 1px solid #d2dfef;
+}
+
+.g-border-bottom {
+  border-bottom: 1px solid #d2dfef;
+}
+
+.g-border-left {
+  border-left: 1px solid #d2dfef;
+}
+
+.g-border-right {
+  border-right: 1px solid #d2dfef;
+}
+
+.g-border {
+  border-right: 1px solid #d2dfef;
+}
+
+/*flex*/
+.g-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*弹窗容器*/
+.g-modal-container {
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
